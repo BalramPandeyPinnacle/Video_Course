@@ -1,0 +1,9 @@
+.video-upload-div{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: auto;
+    padding: 1rem;
+}

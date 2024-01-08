@@ -1,0 +1,53 @@
+/* src/components/ChapterComponent.css */
+
+.chapter-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .chapter-title {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .submenu-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .chapter-heading {
+    margin-bottom: 15px;
+  }
+  
+  .topic {
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .video-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .video-frame {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+  }
+  
+  .video-frame-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
